@@ -11,6 +11,15 @@ h1 {
     font-size: 50px;
     font-weight: 600;
 }
+h4 {
+    font-size: 16px;
+    color: #23a6f0;
+    font-weight: 600;
+}
+h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
 
 p {
     font-size: 16px;
@@ -19,4 +28,30 @@ p {
 .card-img-top {
     width: 288px;
     height: 243px;
+}
+.clients-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 15px 0px;
+    padding: 0px;
+
+    width: 130px;
+    height: 22px;
+}
+.card-img {
+    position: static;
+    width: 149px;
+    height: 149px;
+    margin-left: calc(50% - 149px / 2);
+    margin-top: 40px;
+}
+.fa-star {
+    font-size: 20px;
+}
+.fa-star.filled {
+    color: #e77c40;
+}
+.fa-star.empty {
+    color: #e77c40;
 }
