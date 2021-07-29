@@ -84,6 +84,10 @@ footer {
 footer p {
     font-size: 16px;
 }
+.get-app {
+    width: 170px;
+    height: 140px;
+}
 .button {
     height: 3em;
     width: 8em;
