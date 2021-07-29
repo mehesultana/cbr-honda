@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .top-banner {
     background-color: #264653;
@@ -70,52 +73,14 @@ p {
     color: #e77c40;
 }
 
-/* FAQ  */
-
-h2 {
-    font-family: Arial, Verdana;
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: #000000;
-    text-transform: uppercase;
-}
-.accordion-section .panel-default > .panel-heading {
-    border: 0;
-    background: #f4f4f4;
-    padding: 0;
-}
-.accordion-section .panel-default .panel-title a {
-    display: block;
-    font-style: italic;
-    font-size: 1.5rem;
-}
-.accordion-section .panel-default .panel-title a:after {
-    font-family: 'FontAwesome';
-    font-style: normal;
-    font-size: 3rem;
-    content: '\f106';
-    color: #000000;
-    float: right;
-    margin-top: -12px;
-}
-.accordion-section .panel-default .panel-title a.collapsed:after {
-    content: '\f107';
-}
-.accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
-}
-
 /* Footer  */
-
-.social-icon {
-    margin: 10px 10px;
+footer {
+    background-color: #003638;
+    font-size: 20px;
 }
-
-/* #latest-section {
-    background-color: salmon; 
-    padding: 30px 200px;
-} */
-
+footer p {
+    font-size: 20px;
+}
 .button {
     height: 3em;
     width: 8em;
