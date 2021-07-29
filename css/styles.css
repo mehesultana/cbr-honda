@@ -9,7 +9,7 @@ body {
 }
 h1 {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
 }
 h4 {
     font-size: 16px;
@@ -25,7 +25,21 @@ p {
     font-size: 16px;
     font-weight: 300;
 }
-
+/* featured bikes */
+.featured-bikes {
+    padding: 100px 0;
+}
+.bike-row {
+    padding-top: 50px;
+}
+.bike-container {
+    border-radius: 20px;
+}
+.all-bike {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+/* happy clients */
 .clients-rating {
     display: flex;
     flex-direction: row;
@@ -101,19 +115,12 @@ h2 {
     background-color: salmon; 
     padding: 30px 200px;
 } */
-.bike-container {
-    border-radius: 20px;
-}
-.all-bike {
-    background-color: #f1f1f1;
-    border-radius: 20px;
-}
 
 .button {
     height: 3em;
     width: 8em;
     border: none;
     border-radius: 5px;
-    background-color: #3d4ff3;
+    background-color: #e77c40;
     color: white;
 }

@@ -18,42 +18,40 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
         </style>
-
-        <!-- FAQ links -->
-        <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="bootstrap-accordions-faqs.css" rel="stylesheet" />
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> -->
     </head>
     <body>
         <header class="top-banner">
             <section class="container top-section pb-5">
                 <section>
-                    <nav class="navbar navbar-expand-lg navbar-light">
+                    <nav class="navbar navbar-expand-lg navbar-light container">
                         <div class="container-fluid">
+                            <a class="navbar-brand" href="#">CBR HONDA</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
                             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                                <ul class="navbar-nav mr-36">
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-white" href="#">Home</a>
+                                <ul class="navbar-nav align-items-end">
+                                    <li class="nav-item mx-1">
+                                        <a class="nav-link active" href="#">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-white" href="#product">Shop</a>
+                                    <li class="nav-item mx-1">
+                                        <a class="nav-link active" href="#">Shops</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-white" href="#about">News</a>
+                                    <li class="nav-item mx-1">
+                                        <a class="nav-link active" href="#">News</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-white" href="#contact">Contact </a>
+                                    <li class="nav-item mx-1">
+                                        <a class="nav-link active" href="#">Contact</a>
+                                    </li>
+                                    <li class="nav-item mx-5">
+                                        <button type="button" class="btn btn-danger px-3">Log in</button>
                                     </li>
                                 </ul>
-                                <button type="button" class="btn btn-danger">Login</button>
                             </div>
                         </div>
                     </nav>
                 </section>
-                <!-- banner bag -->
+                <!-- banner  -->
                 <section>
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -98,22 +96,24 @@
         <main class="container">
             <!-- Fetured Bikes section -->
 
-            <section>
-                <h1 class="text-center">Fetured Bikes 2021</h1>
-                <h6 class="text-center different-color">Best bike collection</h6>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <section class="featured-bikes">
+                <div class="featured-bike-text">
+                    <h1 class="text-center">Fetured Bikes 2021</h1>
+                    <h6 class="text-center different-color">Best bike collection</h6>
+                </div>
+                <div class="bike-row row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
-                        <div class="card border-0 h-100">
+                        <div class="card border-0 h-100 m-5">
                             <img src="./images/grayscale.png" class="rating-img-top" alt="..." />
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card border-0 h-100">
+                        <div class="card border-0 h-100 m-5">
                             <img src="./images/feature-bike.jpg" class="rating-img-top" alt="..." />
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card border-0 h-100">
+                        <div class="card border-0 h-100 m-5">
                             <img src="./images/grayscale.png" class="rating-img-top" alt="..." />
                         </div>
                     </div>
@@ -122,12 +122,12 @@
 
             <!-- latest News section -->
 
-            <section id="latest-section" class="mt-5">
+            <section id="latest-section" class="featured-bikes mt-5">
                 <h1 class="casual-text text-center">Latest News</h1>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="bike-row row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card bike-card p-3 bike-container me-5-card shadow-lg h-100">
-                            <img src="./images/bike-3.png" class="rating-img-top all-bike" alt="..." />
+                            <img src="./images/bike-1.png" class="rating-img-top all-bike" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title bike-font">Sneakers Basketball Shoe</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -139,7 +139,7 @@
                     </div>
                     <div class="col">
                         <div class="card bike-card p-3 bike-container me-5-card shadow-lg h-100">
-                            <img src="./images/bike-3.png" class="rating-img-top all-bike" alt="..." />
+                            <img src="./images/bike-2.png" class="rating-img-top all-bike" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title bike-font">Sneakers Basketball Shoe</h5>
                                 <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -165,9 +165,9 @@
             </section>
 
             <!-- clients section -->
-            <section>
+            <section class="featured-bikes">
                 <h1 class="text-center">Happy <span class="different-color">Clients says</span></h1>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="bike-row row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
                             <img src="./images/user-1.png" class="rating-img rounded-circle" alt="..." />
@@ -223,76 +223,74 @@
                 </div>
             </section>
             <!-- FAQ section -->
-
-            <section id="middle-section" class="mt-5">
-                <h1 class="text-center">Frequently Asked <span class="different-color">Questions</span></h1>
-                <section id="about-us" class="d-flex justify-content-center align-items-center">
-                    <div class="row row-cols-1 row-cols-md-2 g-4 cart-section">
-                        <div class="col d-flex align-items-center feature-image">
-                            <img class="img-fluid w-100" src="./images/faq.png" alt="" />
-                        </div>
-                        <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
-                            <div class="container">
-                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0"> What are the most important things I should know about riding a bike? </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
-                                            <div class="panel-body px-3 mb-4">
-                                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1"> How can I tell if my helmet is old and I need a new one? </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
-                                            <div class="panel-body px-3 mb-4">
-                                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2"> My bike has been in storage is it safe to ride?</a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-                                            <div class="panel-body px-3 mb-4">
-                                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3"> What rules should I follow when riding my bike?</a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-3 mb-4">
-                                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
-                                            </div>
-                                        </div>
+            <section class="container my-5">
+                <h1 class="text-center py-5">Frequently Asked <span class="text-orange">Questions</span></h1>
+                <div class="row row-cols-1 row-cols-md-2 gx-5">
+                    <div class="col">
+                        <img class="w-100" src="images/faq.png" alt="" />
+                    </div>
+                    <div class="col my-auto">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <!-- first item of accordion  -->
+                            <div class="accordion-item my-5 border rounded-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                        <h4>What are the most important things I should know about riding a bike?</h4>
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.Most of the time when you
+                                        want to turn in one direction then you turn very slightly the other way first Hence if you ride very close to the kerb on a road you can’t actually turn away from it easily.
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                            <!-- second item of accordion  -->
+                            <div class="accordion-item my-5 border rounded-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        <h4>How can I tell if my helmet is old and I need a new one?</h4>
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        I had mini-bikes and dirt bikes when I was a kid for many years, so, naturally when I got old enough for a drivers license, I needed a road bike too. Understand, that for many years now, I am one of those people that got tired of asking myself “Why am I still
+                                        alive?” See, I lived rural most of my life, so I didn’t ride in the city a whole lot. But believe it or not, it was a bit safer back then (1970’s and 80’s). Being young, married, and 3 little ones around, I found it a bit impractical to keep a bike for several
+                                        years. Then, in the early 90’s, I got a deal on another one, and remembered what I loved about them. However, I was now living in a suburb, and driving in town and heavy traffic most of the time.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third item of accordion  -->
+                            <div class="accordion-item my-5 border rounded-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        <h4>My bike has been in storage is it safe to ride?</h4>
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        It doesn’t take much. It can happen in less than half a second, and (despite what many others state here) you can have no control over it. THE unexpected HAPPENS. Accidents and near accidents happen. In the upper midwest USA, I was driving about 60mph on a
+                                        narrow country road with tall corn growing all around.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fourth item of accordion  -->
+                            <div class="accordion-item my-5 border rounded-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                                        <h4>What rules should I follow when riding my bike?</h4>
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body">That scared me so damn bad, that the next thing I knew was the driver of the truck put his hand on my shoulder asking me if I was OK. I was still standing up on the footpegs just balancing it. I was sick to my stomach.</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </section>
+                </div>
             </section>
-
-            <section>
+            <!--  -->
+            <section class="featured-bikes">
                 <div class="shadow-lg p-3 mb-5 bg-body rounded">
                     <div>
                         <img src="./images/ask-que.png" alt="" />
@@ -303,12 +301,12 @@
                         <div class="input-group mb-5 mt-40">
                             <input type="text" class="form-control" placeholder="write your question here" aria-label="Username" aria-describedby="basic-addon1" />
                         </div>
-                        <button type="button" class="btn btn-danger">Ask Question</button>
+                        <button type="button" class="btn btn-warning">Ask Question</button>
                     </div>
                 </div>
             </section>
 
-            <section class="container">
+            <section class="container featured-bikes">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-end">
                         <li class="page-item disabled">
