@@ -25,10 +25,7 @@ p {
     font-size: 16px;
     font-weight: 300;
 }
-.card-img-top {
-    width: 288px;
-    height: 243px;
-}
+
 .clients-rating {
     display: flex;
     flex-direction: row;
@@ -39,7 +36,7 @@ p {
     width: 130px;
     height: 22px;
 }
-.card-img {
+.rating-img {
     position: static;
     width: 149px;
     height: 149px;
@@ -98,4 +95,25 @@ h2 {
 
 .social-icon {
     margin: 10px 10px;
+}
+
+/* #latest-section {
+    background-color: salmon; 
+    padding: 30px 200px;
+} */
+.bike-container {
+    border-radius: 20px;
+}
+.all-bike {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+.button {
+    height: 3em;
+    width: 8em;
+    border: none;
+    border-radius: 5px;
+    background-color: #3d4ff3;
+    color: white;
 }
